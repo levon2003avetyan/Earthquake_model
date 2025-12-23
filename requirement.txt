@@ -1,0 +1,8 @@
+python>=3.9
+
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+jupyter
