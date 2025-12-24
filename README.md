@@ -113,3 +113,17 @@ This analysis focuses on data visualization, exploration, and feature engineerin
 All plots are included in the notebook, with professional and exam-ready explanations.
 
 The project can be extended to include predictive modeling or interactive visualizations using Plotly or Dash.
+
+
+
+# Conclusion
+
+In this project, we analyzed earthquake data from the USGS for the last 30 days. The main steps included data cleaning, exploratory data analysis (EDA), and feature engineering. Key observations and insights are as follows:
+
+1. Most earthquakes occur at **shallow depths (<70 km)**, concentrated in tectonically active regions such as California and Alaska.  
+2. The **magnitude distribution** shows that small earthquakes are common, while strong earthquakes are rare.  
+3. Creating the `depth_category` and `state` columns allowed for **categorical analysis** and easier interpretation of earthquake patterns.  
+4. 3D and geographic analyses revealed **clusters and hotspots** of earthquakes, showing how magnitude, latitude, longitude, and depth interact.  
+5. Columns representing measurement uncertainty (`horizontalError` and `depthError`) were examined but **not used in modeling**, as they describe data reliability rather than earthquake characteristics.  
+
+Overall, this analysis demonstrates how cleaning, feature engineering, and careful visualization can help understand earthquake patterns and identify high-risk regions. The notebook is prepared to be easily extended for **predictive modeling or interactive visualization** in the future.
